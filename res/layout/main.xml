@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/buttombackg">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:background="@drawable/top">
+
+       <Button
+            android:id="@+id/gobackbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/gobackbutton_style" android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/freshbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/freshbutton_style" 
+            android:layout_gravity="right|center_vertical" 
+            android:layout_marginRight="20dp"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/im_main_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="7dp"
+                    android:clickable="true"
+                    android:src="@drawable/clock" />
+
+                <TextView
+                    android:id="@+id/ct_main_hungry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/im_main_clock"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/im_main_clock"
+                    android:text="@string/hungry"
+                    android:textColor="@color/yellowhard" />
+
+                <TextView
+                    android:id="@+id/vt_main_hungry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/ct_main_hungry"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/ct_main_hungry"
+                    android:text="@string/HungryValue"
+                    android:textColor="@color/yellowhard" />
+
+                <TextView
+                    android:id="@+id/ct_main_clean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/ct_main_hungry"
+                    android:layout_below="@id/ct_main_hungry"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/clean"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/vt_main_clean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/vt_main_hungry"
+                    android:layout_alignTop="@id/ct_main_clean"
+                    android:layout_below="@id/vt_main_hungry"
+                    android:layout_toRightOf="@id/ct_main_clean"
+                    android:text="@string/CleanValue"
+                    android:textColor="@color/crimson" />
+
+                <TextView
+                    android:id="@+id/ct_main_mood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/ct_main_clean"
+                    android:layout_below="@+id/ct_main_clean"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/mood"
+                    android:textColor="@color/LightBlue" />
+
+                <TextView
+                    android:id="@+id/vt_main_mood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/vt_main_hungry"
+                    android:layout_alignTop="@+id/ct_main_mood"
+                    android:layout_toRightOf="@+id/ct_main_mood"
+                    android:text="@string/MoodValue"
+                    android:textColor="@color/LightBlue" />
+
+                <TextView
+                    android:id="@+id/ct_main_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/ct_main_mood"
+                    android:layout_below="@id/ct_main_mood"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/exercise" />
+
+                <TextView
+                    android:id="@+id/ct_main_tofight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/ct_main_exercise"
+                    android:layout_alignBottom="@+id/ct_main_exercise"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/ct_main_exercise"
+                    android:text="@string/fight" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <ImageView
+                    android:id="@+id/im_main_toyface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/greeting_001" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp" >
+
+                <Button
+                    android:id="@+id/im_main_shower"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignRight="@id/vt_main_clean"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dip"
+                    android:background="@drawable/showerbutton_style"
+                    android:src="@drawable/shower" />
+
+                <Button
+                    android:id="@+id/im_main_feed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="24dp"
+                    android:background="@drawable/feedbutton_style"
+                    android:src="@drawable/feed" />
+
+                <Button
+                    android:id="@+id/im_main_work"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="26dp"
+                    android:background="@drawable/workbutton_style"
+                    android:src="@drawable/work" />
+
+                <Button
+                    android:id="@+id/im_main_shopping"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/im_main_shower"
+                    android:layout_marginTop="18dp"
+                    android:layout_toRightOf="@+id/im_main_feed"
+                    android:background="@drawable/shopbutton_style"
+                    android:src="@drawable/shopping" />
+
+                <Button
+                    android:id="@+id/im_main_bag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/im_main_shopping"
+                    android:layout_toRightOf="@+id/im_main_shower"
+                    android:background="@drawable/bagbutton_style"
+                    android:src="@drawable/bag" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</TableLayout>

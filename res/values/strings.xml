@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ToyIIIActivity!</string>
+    <string name="app_name">宠物大作战</string>
+    <string name="hungry">饥饿度：  </string>
+    <string name="clean">清洁度：  </string>
+    <string name="mood">心情值：  </string>
+    <string name="fight">战斗!!>></string>
+    <color name="yellowhard">#9bbb59</color>
+    <color name="crimson">#8064a2</color>
+    <color name="black">#ffffff</color>
+    <color name="white">#000000</color>
+    <color name="LightBlue">#4bacc6</color>
+    <string name="HungryValue">93%</string>
+    <string name="CleanValue">30%</string>
+    <string name="MoodValue">50%</string>
+    <color name="translucenceblue">#804f81bd</color>
+    <string name="exercise">进行训练&gt;&gt;</string>
+
+</resources>

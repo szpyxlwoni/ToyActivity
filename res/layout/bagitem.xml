@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+         android:id="@+id/BagList"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" 
+		 android:descendantFocusability="blocksDescendants">
+		 
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="10dp"
+             android:layout_weight="0.47"
+             android:orientation="vertical" >
+
+             <TextView
+                 android:id="@+id/GoodsTitle"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="TextView"
+                 android:textSize="20dp" />
+
+             <TextView
+                 android:id="@+id/GoodsItem"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="15dip"
+                 android:text="TextView" />
+         </LinearLayout>
+
+
+         <TextView
+             android:id="@+id/GoodsNumber"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_vertical"
+             android:text="TextView" android:layout_marginRight="15dp"/>
+     </LinearLayout>
+
+</LinearLayout>

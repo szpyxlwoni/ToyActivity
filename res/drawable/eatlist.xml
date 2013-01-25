@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/eat_a" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_b" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_c" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_d" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_e" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_f" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_g" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_h" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_a" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_b" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_c" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_d" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_e" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_f" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_g" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_h" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_i" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_j" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_k" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_l" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_m" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_n" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_o" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_p" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_q" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_r" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_s" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_t" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_u" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_v" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/eat_w" android:duration="100" android:visible="true"></item>
+	<item android:drawable="@drawable/eat_x" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_y" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/eat_z" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/greeting_001" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/greeting_002" android:duration="40" android:visible="true"></item>
+    <item android:drawable="@drawable/greeting_001" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/greeting_002" android:duration="40" android:visible="true"></item>  
+   
+
+</animation-list>

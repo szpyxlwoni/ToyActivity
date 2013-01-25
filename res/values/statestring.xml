@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nickname">昵称：阿狸 </string>
+    <string name="birthday">生日：12-06-04 </string>
+    <string name="money">金币：1283 </string>
+    <string name="const_current_state">当前状态 </string>
+    <string name="const_filght_record">光荣战绩 </string>
+    
+</resources>

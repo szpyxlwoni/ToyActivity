@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:background="@drawable/buttombackg">
+
+     <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top" >
+
+
+        <Button
+            android:id="@+id/bag_gobackbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/gobackbutton_style" android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/bag_freshbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/freshbutton_style" android:layout_gravity="right|center_vertical" android:layout_marginRight="20dp"/>
+
+    </FrameLayout>
+
+     <ListView
+         android:id="@+id/BagList"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" android:focusable="false">
+     </ListView>
+
+</LinearLayout>

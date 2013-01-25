@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/moning1" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/moning2" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/moning3" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/moning4" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/moning5" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/moning6" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning7" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning8" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning9" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning10" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning11" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning12" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning13" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning14" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning15" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning16" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning17" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning18" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning19" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning20" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning21" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning22" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning23" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning24" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning25" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning26" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning27" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning28" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning29" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning30" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning31" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning32" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning33" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning34" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning35" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning36" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning37" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning38" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning39" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning40" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning41" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning42" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/moning43" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/greeting_001" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/greeting_002" android:duration="40" android:visible="true"></item>
+    <item android:drawable="@drawable/greeting_001" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/greeting_002" android:duration="40" android:visible="true"></item>  
+   
+
+</animation-list>

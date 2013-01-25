@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/buttombackg">
+
+    <FrameLayout
+        android:id="@+id/FrameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:background="@drawable/top">
+
+       <Button
+            android:id="@+id/gobackbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/gobackbutton_style" android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/freshbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/freshbutton_style" 
+            android:layout_gravity="right|center_vertical" 
+            android:layout_marginRight="20dp"/>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.35"
+                android:orientation="vertical" android:layout_marginLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/exe_option"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_option" />
+
+                <ImageView
+                    android:id="@+id/exe_moning"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_moning" />
+
+                <ImageView
+                    android:id="@+id/exe_train"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_train" />
+
+                <ImageView
+                    android:id="@+id/exe_read"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_read" />
+
+                <ImageView
+                    android:id="@+id/exe_think"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_think" />
+
+                <ImageView
+                    android:id="@+id/exe_swim"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_swim" />
+
+                <ImageView
+                    android:id="@+id/exe_long"
+                    android:layout_width="88dp"
+                    android:layout_height="62dp"
+                    android:src="@drawable/exe_long" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/init_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical|center"
+                android:background="@drawable/greetlist" android:layout_marginRight="15dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</TableLayout>

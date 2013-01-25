@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/swim001" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim002" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim003" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim004" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim005" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim006" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim007" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim008" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim009" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim010" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim011" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim012" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim013" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim014" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim015" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim016" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim017" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim018" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim019" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim020" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim021" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim022" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim023" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim024" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim025" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim026" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim027" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim028" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim029" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim030" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim031" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim032" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim033" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim034" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim035" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/swim036" android:duration="100" android:visible="true"></item>
+    <item android:drawable="@drawable/greeting_001" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/greeting_002" android:duration="40" android:visible="true"></item>
+    <item android:drawable="@drawable/greeting_001" android:duration="100" android:visible="true"></item>  
+    <item android:drawable="@drawable/greeting_002" android:duration="40" android:visible="true"></item>  
+   
+
+</animation-list>
